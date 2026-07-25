@@ -6,7 +6,7 @@
 
 ## Português
 
-Este projeto é um clone digital do clássico pedal de distorção **Ibanez Tube Screamer (TS-9)**, desenvolvido em C++ utilizando a framework **JUCE 8** e **CMake** e VSCode. O plugin utiliza técnicas de *soft clipping* cúbico para emular a saturação simétrica analógica e filtros DSP para recriar o famoso corte de graves e controlo de tonalidade do circuito original.
+Este projeto é um clone digital do clássico pedal de distorção **Ibanez Tube Screamer (TS-9)**, desenvolvido em C++ utilizando a framework **JUCE 8**, **CMake** e **VSCode**. O plugin utiliza técnicas de *soft clipping* cúbico para emular a saturação simétrica analógica e filtros DSP para recriar o famoso corte de graves e controlo de tonalidade do circuito original.
 
 ### 🗂️ Organização do Projeto
 
