@@ -4,7 +4,7 @@ Português | English
 
 PortuguêsEste projeto é um clone digital do clássico pedal de distorção Ibanez Tube Screamer (TS-9), desenvolvido em C++ utilizando a framework JUCE 8 e CMake. O plugin utiliza técnicas de soft clipping cúbico para emular a saturação simétrica analógica e filtros DSP para recriar o famoso corte de graves e controlo de tonalidade do circuito original.
 
-# 🗂️ Organização do ProjetoO código está estruturado de forma moderna e modular, eliminando o cabeçalho automático JuceHeader.h para garantir maior controlo sobre as dependências e tempos de compilação mais rápidos:
+🗂️ Organização do ProjetoO código está estruturado de forma moderna e modular, eliminando o cabeçalho automático JuceHeader.h para garantir maior controlo sobre as dependências e tempos de compilação mais rápidos:
 
 PluginProcessor.h / .cpp: Contém o motor de áudio, o loop de processamento de sinal (DSP), os filtros de corte e o gestor de parâmetros thread-safe (APVTS).
 
@@ -12,7 +12,7 @@ PluginEditor.h / .cpp: Trata da Interface Gráfica (GUI), desenhando os três bo
 
 CMakeLists.txt: Script de configuração do CMake que gere os ficheiros e vincula os módulos do JUCE de forma privada.
 
-# 🆔 Gestão de IDs Únicos no JUCE
+🆔 Gestão de IDs Únicos no JUCE
 
 Para evitar conflitos em DAWs (como o FL Studio), o projeto segue uma regra estrita de identificação de metadados:
 
@@ -44,7 +44,7 @@ English
 
 This project is a digital clone of the classic Ibanez Tube Screamer (TS-9) distortion pedal, developed in C++ using the JUCE 8 framework and CMake. The plugin utilizes cubic soft-clipping techniques to emulate analog symmetrical saturation, combined with DSP filters to recreate the original circuit's famous bass cut and tone control.
 
-#🗂️ Project Architecture
+🗂️ Project Architecture
 
 The codebase follows a modern, modular structure, bypassing the automated JuceHeader.h file to achieve better dependency control and faster compilation times:
 
@@ -54,7 +54,7 @@ PluginEditor.h / .cpp: Manages the Graphical User Interface (GUI), drawing the t
 
 CMakeLists.txt: The CMake build script that organizes source files and links JUCE modules privately.
 
-# 🆔 Unique ID Management in JUCE
+🆔 Unique ID Management in JUCE
 
 To prevent GUI and scanning conflicts inside DAWs (like FL Studio), the project adheres to strict metadata routing rules:
 
